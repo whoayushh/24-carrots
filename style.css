@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body{
+    font-family: "futura-pt", sans-serif;
+    scroll-behavior: smooth;
+
+}
+/* NAV BAR */
+
+.nav-bar{
+    width:100%;
+    height:100px;
+    /* background-color: bisque; */
+    
+}
+
+.nav-bar-items{
+    display:flex;
+    /* justify-content: space-between; */
+    font-size:0.875rem;
+    color:#1A4122;
+    letter-spacing: 2.1px;
+    font-weight: 450;
+    font-family: "futura-pt", sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    height:10vh;
+    gap:2rem;
+
+}
+.nav-bar-items li:hover{
+    color:rgb(198, 66, 0);
+    cursor: pointer;
+}
+
+
+.nav-bar-left{
+    display:flex;
+    /* align-items: flex-start; */
+    justify-content:space-between;
+    font-weight: 500;
+    margin-left: 50px;
+    
+    
+}
+
+.nav-bar-items li {
+    margin-bottom: 10px; 
+}
+.nav-bar-centre{
+    display:flex;
+    flex-direction: column;
+}
+.nav-bar-centre h2{
+    letter-spacing: 2.1px;
+    font-style: normal;
+    font-weight: 450;
+}
+.nav-bar-right{
+    display:flex;
+    justify-content: space-around;
+    margin-right: 150px;
+    gap:2rem;
+    
+}
+.nav-bar-btn{
+    
+    height:30px;
+    background-color: rgb(198, 66, 0);
+    color:#fff;
+    margin-top: 30px;
+    border-radius: 30px;
+    letter-spacing: 2.1px;
+    cursor:pointer;
+    border: none;
+    padding:10px 30px 10px 30px;
+
+}
+.nav-bar-btn:hover{
+    background-color: rgb(238, 79, 0);
+}
+#carrots{
+    font-size: 2rem;
+    font-weight: 545;
+    cursor:pointer;
+}
+#catering-events{
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 25px;
+    color:#abb8c3;
+    letter-spacing: 2.1px;
+    font-size: small;
+    cursor: pointer;
+}
+/* INTRO VIDEO SECTION */
+
+
+.video-section-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set text color */
+    font-size: 24px; Set font size
+    text-align: center;
+    font-size: 7rem;
+    font-family: "F37 Caslon", serif;
+}
+
+/* WELCOME SECTION LEFT */
+
+.welcome{
+    display: flex;
+}
+.welcome-section-left{
+    width:40%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.welcome-section-left h3{
+    letter-spacing: 2.1px;
+    color:#888;
+    margin-top: 60px;
+    font-weight: 500;
+}
+.welcome-section-left h1{
+    font-size: 1rem;
+    font-family: "F37 Caslon", serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 4.5rem;
+    color:#1A4122;
+    line-height: 4.5rem;
+    letter-spacing: -1px;
+}
+.welcome-section-left p{
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 140%;
+    
+}
+.welcome-section-left button{
+    margin-left: 190px;
+}
+
+#welcome-section-button{
+    transition:transform 0.3s ease-in-out;
+    
+}
+.welcome-left-button:hover #welcome-section-button{
+    transform: translateX(9px);
+}
+
+
+/* welcome-section-right */
+
+.welcome-section-right{
+    margin-top: 100px;
+    margin-left: 30rem;
+    height:700px;
+    width: 700px;
+    
+
+}
+.slider-container {
+    position: relative;
+    max-width: 600px; /* Set your desired maximum width */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 250px 0px 0px 0px;
+  }
+
+  /* Style for the slider images */
+  .slider-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  /* Style for the individual images */
+  .slider-image {
+    width: 150%;
+    height:100%;
+    object-fit: contain;
+    
+  }
+  .slider-image img{
+    height:800px;
+  }
+
+  /* Style for the slider line segments container */
+  .slider-line-segments-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust the spacing between images and line segments */
+  }
+
+  /* Style for the line segments */
+  .slider-line-segment {
+    width: 30px;
+    height: 3px;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  /* Style for the active line segment */
+  .slider-line-segment.active {
+    background-color:rgb(198, 66, 0);
+  }
+
+/* SHOWCASE SECTION */
+.showcase{
+    display: flex;
+}
+.showcase-section-left img{
+    margin-left: 10rem;
+    border-radius: 250px 250px 0px 0px;
+}
+.showcase-right-below{
+    display: flex;
+}
+.showcase-section-right h1{
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+    letter-spacing: -3px;
+    font-size: 100px;
+    font-weight: 400;
+}
+.showcase-right-left{
+    font-family: "F37 Caslon", serif;
+    line-height: 50px;
+    font-size:25px ;
+    color:#888;
+    font-weight: 400;
+}
+#showcase-right-left-weddings{
+    color:#1A4122;
+}
+.showcase-right-right   {
+    font-weight: 400;
+    max-width: 400px;
+    margin-left: 14rem;
+    font-family: "F37 Caslon", serif;
+
+}
+.showcase-right-right p{
+    font-size: 20px;
+    color:#888;
+    
+
+}
+
+    /* VENUES */
+
+    .venue-top-img{
+        position: relative;
+        height:100%;
+        width:100%;
+        overflow: hidden;
+    }
+.venue-top-img img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.half-circle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px; 
+    height: 200px;   
+    background-color: white;
+    border-radius:200px 200px 0 0 ;
+}
+.half-circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Adjust the text color */
+    font-size: 14px; /* Adjust the font size */
+    margin-top: 5rem;
+    font-family: "Rustica", sans-serif;
+    color: #647B4E;
+    
+}
+.venues-below h2{
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 10px;
+    margin-bottom: 24px ;
+    
+}
+
+.venues-below{
+    width: 500px;
+    align-items: center;
+    margin-left: 35rem;
+}
+#venues{
+    margin-left: 5rem;
+}
+.venues-below p{
+    margin-left: 5rem;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 140%;
+}
+.venues-below button{
+    margin-left: 13rem;
+
+}
+
+.venues-pic-container{
+    display: flex;
+    gap:2rem;
+    overflow:  scroll;
+}
+.scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .scroll-container {
+      display: flex;
+      overflow-x: scroll;
+      width: 100%;
+    }
+.custom-scrollbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 10px;
+        background-color: #ccc;
+        overflow: hidden;
+    }
+  
+.scroll-indicator {
+        height: 100%;
+        width: 50px; /* Adjust the width of the moving line segment */
+        background-color: #000;
+        position: absolute;
+        transition: transform 0.3s ease-in-out;
+}
