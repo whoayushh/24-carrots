@@ -355,3 +355,17 @@ body{
         position: absolute;
         transition: transform 0.3s ease-in-out;
 }
+.venues{
+    margin-top: 5rem;
+}
+.explore-venues{
+    margin-top: 5rem;
+    
+}
+
+.scroll-container{
+    gap:2rem;
+}
+.venues-pic-card{
+    cursor: pointer;
+}
