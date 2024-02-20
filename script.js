@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const scrollIndicator = document.querySelector('.scroll-indicator');
 
     let currentIndex = 0;
-
+   
     function updateSlider() {
       const translateValue = -currentIndex * 100 + '%';
       sliderImages.style.transform = 'translateX(' + translateValue + ')';
